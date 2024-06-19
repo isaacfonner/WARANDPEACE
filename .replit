@@ -1,0 +1,27 @@
+run = ["bash", "main.sh"]
+
+entrypoint = "main.sh"
+modules = ["python-3.10"]
+
+[nix]
+channel = "stable-22_11"
+
+[[ports]]
+localPort = 8081
+externalPort = 80
+
+[[ports]]
+localPort = 25565
+externalPort = 3001
+
+[[ports]]
+localPort = 25577
+externalPort = 3000
+
+[[ports]]
+localPort = 25578
+externalPort = 3002
+
+[deployment]
+deploymentTarget = "static"
+publicDir = "/"

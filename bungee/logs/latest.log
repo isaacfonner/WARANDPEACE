@@ -1,0 +1,100 @@
+[14:58:08] [main/INFO]: Using mbed TLS based native cipher.
+[14:58:08] [main/INFO]: Using zlib based native compressor.
+[14:58:08] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526
+[14:58:08] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[14:58:08] [main/INFO]: Epoll is working, utilising it!
+[14:58:08] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[14:58:08] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[14:58:08] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[14:58:08] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[14:58:08] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[14:58:08] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[14:58:09] [main/WARN] [ViaVersion]:       / \
+[14:58:09] [main/WARN] [ViaVersion]:      /   \
+[14:58:09] [main/WARN] [ViaVersion]:     /  |  \
+[14:58:09] [main/WARN] [ViaVersion]:    /   |   \         BUNGEECORD IS OUTDATED
+[14:58:09] [main/WARN] [ViaVersion]:   /         \   VIAVERSION MAY NOT WORK AS INTENDED
+[14:58:09] [main/WARN] [ViaVersion]:  /     o     \
+[14:58:09] [main/WARN] [ViaVersion]: /_____________\
+[14:58:09] [main/WARN] [ViaVersion]: ViaVersion does not work as intended across many different server versions, especially the more recent ones. Consider moving Via plugins to your backend server or switching to Velocity.
+[14:58:09] [main/INFO]: Loaded plugin ViaVersion version 4.10.3-SNAPSHOT by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[14:58:09] [main/INFO]: Loaded plugin ViaBackwards version 4.10.3-SNAPSHOT by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[14:58:09] [main/INFO]: Loaded plugin ViaRewind version 3.1.2 by null
+[14:58:09] [main/WARN]: Error loading plugin ViaRewind-Legacy-Support
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_322]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_322]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:395) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:301) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:287) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	... 13 more
+[14:58:09] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:09] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:09] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:09] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:09] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:09] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:09] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:58:09] [main/WARN]: :>  
+[14:58:09] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[14:58:09] [main/WARN]: :>  
+[14:58:09] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[14:58:09] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[14:58:09] [main/WARN]: :>  apart from the versions listed below:
+[14:58:09] [main/WARN]: :>  
+[14:58:09] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:18eae8a:1842
+[14:58:09] [main/WARN]: :>  - Waterfall: 1.20-R0.3-SNAPSHOT:37a9ace:577
+[14:58:09] [main/WARN]: :>  
+[14:58:09] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[14:58:09] [main/WARN]: :>  
+[14:58:09] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[14:58:09] [main/WARN]: :>  
+[14:58:09] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:58:09] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.2.0 by lax1dude
+[14:58:09] [main/WARN]: Forced host server pvp is not defined
+[14:58:11] [Via-Mappingloader-0/INFO] [ViaVersion]: Loading block connection mappings ...
+[14:58:12] [main/INFO] [ViaBackwards]: Loading translations...
+[14:58:12] [main/INFO] [ViaBackwards]: Registering protocols...
+[14:58:13] [main/INFO] [ViaRewind]: Registering protocols...
+[14:58:13] [main/INFO] [ViaVersion]: ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+[14:58:13] [main/INFO] [ViaVersion]: Highest supported version by the proxy: 1.19.4 (762)
+[14:58:13] [main/WARN] [ViaVersion]: You are running an outdated Java version, please update it to at least Java 17 (your version is 1.8.0_322).
+[14:58:13] [main/WARN] [ViaVersion]: Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
+[14:58:13] [ViaVersion Pool Thread #2/INFO] [ViaVersion]: Finished mapping loading, shutting down loader executor!
+[14:58:13] [main/INFO]: Enabled plugin ViaVersion version 4.10.3-SNAPSHOT by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[14:58:13] [main/INFO]: Enabled plugin ViaBackwards version 4.10.3-SNAPSHOT by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[14:58:13] [main/INFO]: Enabled plugin ViaRewind version 3.1.2 by null
+[14:58:13] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:13] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:13] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:13] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:13] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:13] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[14:58:13] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[14:58:14] [Netty Boss IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:25565
+[14:58:15] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:58:15] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[14:58:15] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.2.0 by lax1dude
+[14:58:15] [Netty Boss IO Thread #1/INFO]: Listening on /0.0.0.0:25577
+[14:58:15] [ViaVersion Pool Thread #2/WARN] [ViaVersion]: There is a newer plugin version available: 5.0.0, you're on: 4.10.3-SNAPSHOT
+[14:58:16] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /home/runner/WARANDPEACE/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[14:59:07] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/172.31.196.4:40162]: Connected via websocket
+[14:59:07] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/172.31.196.4:40162]: Origin header is null
+[14:59:07] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/172.31.196.4:40162]: Logged in as 'GalaxyTheForbidd'
+[14:59:07] [Netty Worker IO Thread #2/INFO]: [/172.31.196.4:40162|GalaxyTheForbidd] -> UpstreamBridge has connected
+[14:59:07] [Netty Worker IO Thread #2/INFO]: [GalaxyTheForbidd|/172.31.196.4:40162] <-> ServerConnector [lobby] has connected
+[15:16:31] [Netty Worker IO Thread #2/INFO]: [/172.31.196.4:40162|GalaxyTheForbidd] -> UpstreamBridge has disconnected
+[15:16:31] [Netty Worker IO Thread #2/INFO]: [GalaxyTheForbidd] disconnected with: Proxy lost connection to server.
+[15:16:31] [Netty Worker IO Thread #2/INFO]: [/172.31.196.4:40162|GalaxyTheForbidd] <-> DownstreamBridge <-> [lobby] has disconnected
